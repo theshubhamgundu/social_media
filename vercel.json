@@ -1,16 +1,11 @@
 {
   "version": 2,
-  "name": "social-media-app",
-  "builds": [
-    {
-      "src": "client/**",
-      "use": "@vercel/static"
-    }
-  ],
+  "cleanUrls": true,
+  "outputDirectory": "client/build/web",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "client/index.html"
+      "dest": "/index.html"
     }
   ]
 }

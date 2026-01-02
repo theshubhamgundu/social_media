@@ -5,14 +5,14 @@ version: 0.3.3
 homepage: https://github.com/jhomlala/alice
 
 environment:
-  sdk: ">=2.18.0 <3.0.0"
+  sdk: ">=2.18.0 <4.0.0"
   flutter: ">=3.3.0"
 
 dependencies:
   flutter:
     sdk: flutter
   http: 1.4.0
-  dio: 5.8.0+1
+  dio: 5.4.3
   flutter_local_notifications: 19.2.1
   rxdart: 0.28.0
 

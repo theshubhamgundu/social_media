@@ -20,7 +20,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: 3.8.1
+  sdk: ">=3.10.4 <4.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -58,7 +58,7 @@ dependencies:
   navigation_history_observer: 1.1.1
 
   # network
-  dio: 5.8.0+1
+  dio: 5.4.3
   http: 1.4.0
   alice:
     path: packages/alice
@@ -90,7 +90,7 @@ dependencies:
   image_picker: 1.1.2
   dotted_border: 2.0.0+3
   cached_network_image: 3.4.1
-  awesome_snackbar_content: 0.1.7
+  awesome_snackbar_content: 0.1.8
 
   shared:
     path: ../server/packages/shared
